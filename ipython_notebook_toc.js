@@ -15,7 +15,7 @@ function romanize(num) {
 // Builds a <ul> Table of Contents from all <headers> in DOM
 function createTOC(){
     var toc = "";
-    var level = 1;
+    var level = 0;
     var levels = {}
     $('#toc').html('');
 
